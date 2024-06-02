@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --primary-color:#0c18ce;
+    --dark-primary-color:#0c122b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background: var(--dark-primary-color);
+    padding: 20px;
+    color: rgb(190, 14, 96);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    letter-spacing: 0capitalize;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin: 0 10px;
+}
+
+span 
+{  
+    color: rgb(255, 255, 251);
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    
+}
+ul li a:hover{
+    color:var(--primary-color);
+}
+body{
+    font-family: "PT Serif", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+header button{
+    padding:10px 20px;
+    background-color:var(--dark-primary-color);;
+    border-radius: 5px;
+    background-blend-mode: normal;
+    font-weight: bold;
+    border: 1px solid rgb(9, 39, 124);
+    color:var(--primary-color);
+}
+header .logo{
+    font-weight:bold;
+    color: var(--primary-color);
+    letter-spacing:7px;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color:var(--primary-color);
+    color:white;
+}
